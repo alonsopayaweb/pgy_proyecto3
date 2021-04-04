@@ -1,2 +1,2 @@
-# pgy_proyecto1
+# pgy_proyecto3
 Proyecto para la asignatura de PGY
