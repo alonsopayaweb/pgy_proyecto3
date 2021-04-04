@@ -13,20 +13,20 @@
 		<link rel="stylesheet" href="estilos.css">
 	</head>
 	<body class="container-fluid">
-		<header class="encabezado">
-			<h1>ONG - AYUDA A UN PELUDO</h1>
-			<p>¿Buscas un nuevo mejor amigo? Somos una organización sin fines de lucro protectora de animales, que surge de la 
+		<header class="jumbotron jumbotron-fluid">
+			<div class="container">
+			  <h1 class="display-4">ONG - AYUDA A UN PELUDO</h1>
+			  <p class="lead">¿Buscas un nuevo mejor amigo? Somos una organización sin fines de lucro protectora de animales, que surge de la 
 				necesidad de proteger a animales domésticos en situación de maltrato o abandono, y busca desarrollar una cultura 
-				de protección activa de la vida animal y tenencia responsable de mascotas en nuestro país.
-			</p>
+				de protección activa de la vida animal y tenencia responsable de mascotas en nuestro país.</p>
+			</div>
 		</header>
-
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+		<!-- Agregado Justify-content-end al div para situarlo a la derecha-->
+		<nav class=" navbar navbar-expand-lg navbar-light bg-light  justify-content-end">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
 			  <ul class="navbar-nav">
 				<li class="nav-item active">
 				  <a class="nav-link" href="#">Inicio</a>
@@ -43,14 +43,11 @@
 				<li class="nav-item">
 					<a class="nav-link" href="mascota/contacto.html">Contactos</a>
 				</li>
-				<li class="nav-item">
-				  <a class="nav-link disabled" href="#">Disabled</a>
-				</li>
 			  </ul>
 			</div>
-		  </nav>
+		</nav>
 		<hr>
-		<section class="seccionIndice">
+		<section class="container-sm">
 			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-inner">
 				  <div class="carousel-item active">
@@ -72,29 +69,8 @@
 				  <span class="visually-hidden">Next</span>
 				</button>
 			  </div>
-			<!-- <div class="integrantes">
-				<h2>Nuestros Integrantes</h2>
-				<ul>
-					<li>Alonso Payá G. - Cuidador</li>
-					<li>Valentín Lagos N. - Rescatista</li>
-				</ul>
-			</div> 
-			</div>
-			<hr>
-			<div class="animales">
-				<h2>Nuestras Secciones de Ayuda</h2>
-				<article class="articuloIndex">
-					<a href="mascota/gato.html"><img src="images/gato.jpg" width="300px" height="200px" alt="Gatos"></a>
-					<a class="urlTexto" href="mascota/gato.html">Gatos</a>
-				</article>
-				<article class="articuloIndex">
-					<a href="mascota/perro.html"><img src="images/perro.jpg" width="300px" height="200px" alt="Perros"></a>
-					<a class="urlTexto" href="mascota/perro.html">Perros</a>
-				</article>
-
-			</div> -->
 		</section>
-		<footer>
+		<footer class="container-fluid">
 			<hr>
 			<p>Redes Sociales:</p>
 				<a href="mailto:ayudaaunpeludo@gmail.com">Correo Electrónico</a>

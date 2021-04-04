@@ -5,32 +5,27 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ONG Ayuda a un Peludo</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <title>ONG Ayuda a un Peludo</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos.css">
 </head>
 
 <body class="container-fluid">
-    <header class="encabezado">
-        <h1>ONG Ayuda a un Peludo</h1>
-        <p>¿Buscas un nuevo mejor amigo? Somos una fundación protectora de animales, que surge de la necesidad de
-            proteger
-            a animales domésticos en situación de maltrato o abandono, y busca desarrollar una cultura de protección
-            activa
-            de la vida animal.
-        </p>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">ONG - AYUDA A UN PELUDO</h1>
+          <p class="lead">¿Buscas un nuevo mejor amigo? Somos una organización sin fines de lucro protectora de animales, que surge de la 
+            necesidad de proteger a animales domésticos en situación de maltrato o abandono, y busca desarrollar una cultura 
+            de protección activa de la vida animal y tenencia responsable de mascotas en nuestro país.</p>
+        </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light  justify-content-end">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="../index.html">Inicio</a>
@@ -47,82 +42,53 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contacto.html">Contactos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
             </ul>
         </div>
     </nav>
-    <div class="cmsms_row_margin cmsms_1212">
-        <div class="cmsms_column one_half">
-
-            <div id="cmsms_heading_606a05e92940b" class="cmsms_heading_wrap cmsms_heading_align_left">
-                <h3 class="cmsms_heading">Escríbenos</h3>
-            </div>
-            <div class="cmsms_contact_form">
-                <div role="form" class="wpcf7" id="wpcf7-f5860-p2013-o1" lang="es-CL" dir="ltr">
-                    <div class="screen-reader-response">
-                        <p role="status" aria-live="polite" aria-atomic="true"></p>
-                        <ul></ul>
-                    </div>
-                    <form action="/contacto/#wpcf7-f5860-p2013-o1" method="post" class="wpcf7-form init"
-                        novalidate="novalidate" data-status="init">
-                        <div style="display: none;">
-                            <input type="hidden" name="_wpcf7" value="5860">
-                            <input type="hidden" name="_wpcf7_version" value="5.4">
-                            <input type="hidden" name="_wpcf7_locale" value="es_CL">
-                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5860-p2013-o1">
-                            <input type="hidden" name="_wpcf7_container_post" value="2013">
-                            <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <section class="container">
+                    <h1>Escríbenos</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Tu Nombre (Requerido):</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su Nombre">
+                          </div>
+                        <br>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Dirección de Correo Electrónico (Requerido):</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su Correo">
                         </div>
-                        <p><label> Tu Nombre (requerido)<br>
-                                <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name"
-                                        value="" size="40"
-                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                        aria-required="true" aria-invalid="false"></span> </label></p>
-                        <p><label class="form-email"> Tu correo electrónico (requerido)<br>
-                                <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email"
-                                        value="" size="40"
-                                        class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                        aria-required="true" aria-invalid="false"></span> </label></p>
-                        <p><label> Tu Asunto<br>
-                                <span class="wpcf7-form-control-wrap your-subject"><input type="text"
-                                        name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text"
-                                        aria-invalid="false"></span> </label></p>
-                        <p><label> Tu Mensaje<br>
-                                <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message"
-                                        cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea"
-                                        aria-invalid="false"></textarea></span> </label></p>
-                        <p><input type="submit" value="Quiero información!"
-                                class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
-                        <div class="wpcf7-response-output" aria-hidden="true"></div>
-                    </form>
-                </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Tu Asunto:</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su Asunto">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Escribe tu Mensaje:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">¡Quiero Información!</button>
+                      </form>
+                </section>
             </div>
-        </div>
-        <div class="cmsms_column one_half">
-
-            <div id="cmsms_divider_606a05e929f58" class="cl"></div>
-            <div id="cmsms_heading_606a05e929f82" class="cmsms_heading_wrap cmsms_heading_align_left">
-                <h2 class="cmsms_heading">Emails:</h2>
-            </div>
-            <div class="cmsms_text">
+            <div class="col-6">
+                <h2>Emails:</h2>
                 <ul>
-                    <li><strong>General:</strong> contacto@garrasypatas.cl</li>
-                    <li><strong>Relaciones Públicas:</strong> difusion@garrasypatas.cl</li>
-                    <li><strong>Voluntarios</strong>:&nbsp;voluntarios@garrasypatas.cl</li>
-                    <li><strong>Socios</strong>:&nbsp;&nbsp;socios@garrasypatas.cl</li>
-                    <li><strong>Hogares Temporales:</strong>&nbsp;hogarestemporales@garrasypatas.cl</li>
-                    <li><strong>Donaciones</strong>: donaciones@garrasypatas.cl</li>
-                    <li><strong>Eventos Solidarios y Corona de Caridad</strong>: eventos@garrasypatas.cl</li>
-                    <li><strong>Traslados</strong>: traslados@garrasypatas.cl</li>
-                    <li><strong>Padrinos</strong>: padrinos@garrasypatas.cl</li>
-                    <li><strong>Compra de Merchandising:</strong> ventas@garrasypatas.cl</li>
+                    <li><span style="font-weight:bold;">Alonso Payá:</span> apaya@ayudaaunpeludo.cl</li>
+                    <li><span style="font-weight:bold;">Valentín Lagos:</span> vlagos@ayudaaunpeludo.cl</li>
                 </ul>
             </div>
-        </div>
+
+          </div>
     </div>
-    <footer>
+
+    </div>
+
+    <footer class="container-fluid">
         <hr>
         <p>Redes Sociales:</p>
         <a href="mailto:ayudaaunpeludo@gmail.com">Correo Electrónico</a>
